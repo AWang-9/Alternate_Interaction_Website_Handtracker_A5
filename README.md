@@ -1,18 +1,3 @@
-# Implemented Gestures
-Common gestures: 
-* Two open hands = ingredient popup if applicable
-* Two closed hands = forward
-* one closed hand =  close modal, back
-* open hand = search bar focus, if applicable
-* 2 point = quick jump instructions if applicable
-* 1 point =  quick jump top
-
-Custom Gestures:  
-* 1 point one open = scroll up
-* 1 point one closed = scroll down
-
-
-
 # AtAlternativeInteractionSolution
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
@@ -40,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Implemented Gestures
+Common gestures: 
+* Two open hands = ingredient popup if applicable
+* Two closed hands = forward
+* one closed hand =  close modal, back
+* open hand = search bar focus, if applicable
+* 2 point = quick jump instructions if applicable
+* 1 point =  quick jump top
+
+Custom Gestures:  
+* 1 point one open = scroll up
+* 1 point one closed = scroll down
+
