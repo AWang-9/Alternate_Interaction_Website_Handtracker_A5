@@ -1,0 +1,16 @@
+
+.ingredient_list{
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding:20px;
+    font-size: large;
+}
+
+.card{
+    background-color: rgba(255, 218, 185, 0.445);
+}
+
+.card-title{
+   font-weight: bold;
+}

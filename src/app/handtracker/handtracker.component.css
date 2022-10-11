@@ -1,0 +1,16 @@
+.videobox{
+    border: 3px solid #0063FF;
+    border-color: #0063FF;
+    width: 150px;
+    height: 150px;
+}
+
+.gesture_text{
+    color: white;
+    text-align: center;
+}
+
+.buttons{
+    margin: auto;
+    /* text-align: left; */
+}

@@ -1,0 +1,22 @@
+.instructions{
+    font-size: large;
+    padding:20px;
+    width: 550px;
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+li {
+    margin: 20px 0;
+}
+
+
+.card{
+    background-color: rgba(255, 218, 185, 0.445);
+}
+
+.card-title{
+   font-weight: bold;
+}

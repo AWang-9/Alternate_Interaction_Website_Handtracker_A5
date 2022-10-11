@@ -1,0 +1,91 @@
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<header>
+    <app-navbar id="nav"></app-navbar>
+    <div class="welcome_banner">
+        <div class="splash_img"></div>
+        <div class="welcome_text">
+            <h1 class="welcome_title">Welcome to the Recipe Website</h1>
+            <p>A site that can be navigated with gestures</p>
+        </div>
+
+    </div>
+</header>
+
+<body>
+    <div class="main_body">
+        <div class="card_container">
+            <div class="card_header_text">
+                <h3 class="title">Featured Breakfast Recipes</h3>
+                <h3 class="see_more"><a href="all_recipes">See more</a></h3>
+            </div>
+            <hr class="linebreak">
+                <div class="card-deck" id="breakfast">
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+
+                </div>
+        </div>
+        <div class="card_container">
+            <div class="card_header_text">
+                <h3 class="title">Featured Lunch Recipes</h3>
+                <h3 class="see_more"><a href="all_recipes">See more</a></h3>
+            </div>
+            <hr class="linebreak">
+                <div class="card-deck" id="lunch">
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                </div>
+        </div>
+
+        <div class="card_container">
+            <div class="card_header_text">
+                <h3 class="title">Featured Dinner Recipes</h3>
+                <h3 class="see_more"><a href="all_recipes">See more</a></h3>
+            </div>
+            <hr class="linebreak">
+                <div class="card-deck" id="dinner">
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+
+                </div>
+        </div>
+
+        <div class="card_container">
+            <div class="card_header_text">
+                <h3 class="title">Featured Dessert Recipes</h3>
+                <h3 class="see_more"><a href="all_recipes">See more</a></h3>
+            </div>
+            <hr class="linebreak">
+                <div class="card-deck" id="dessert">
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                    <app-card-basic></app-card-basic>
+                </div>
+        </div>
+    </div>
+
+
+<footer>
+    <app-footer></app-footer>
+</footer>
+
+
+
+
+
+

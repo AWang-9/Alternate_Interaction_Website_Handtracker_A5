@@ -1,0 +1,107 @@
+body{
+    background-color: rgba(255, 247, 233, 0.288);
+}
+
+.header{
+    padding:20px;
+    margin-top:30px;
+    padding-top: 200px;
+    text-align: center;
+} 
+
+.header_text{
+    line-height: 50px;
+}
+
+.ingredients{
+    width: 600px;
+    height:auto;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.instructions{
+    width:800px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+
+.brownie_img{
+    width:35%;
+    height:35%;
+    padding-top:30px;
+}
+
+.complete_images{
+    padding-top:30px;
+}
+
+.complete_images img {
+    width:500px;
+    height: 500px;
+    object-fit: scale-down;
+}
+
+.ingred_card{
+    width:50%;
+    height:auto;
+}
+
+.similar_recipes{
+    padding-top:30px;
+    padding-left: 20px;
+}
+
+.card-deck{
+    margin: auto;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.card-deck app-card-basic{
+    display: table-cell;
+    text-align: center;
+} 
+
+
+.card_header_text{
+    margin: auto;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.card_header_text h3{
+    display: table-cell;
+    text-align: center;
+}
+
+.card_header_text :first-child{
+    text-align: left;
+}
+
+.card_header_text :last-child{
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+
+
+
+.see_more{
+    display: inline;
+    text-align: center;
+}
+
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }

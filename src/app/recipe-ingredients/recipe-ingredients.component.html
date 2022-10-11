@@ -1,0 +1,15 @@
+
+<body class="ingred_card">
+    <div class="card mb-3" id="ingredient_card_body">
+        <div class="card-body">
+          <h2 class="card-title text-center">Ingredients</h2>
+            <ul class="ingredient_list">
+                <div *ngFor="let ingredient of ingredients" class="form-check">
+                    <li (click)="check()">{{ingredient}}</li>
+                </div>      
+            </ul>
+        </div>
+      </div>
+</body>
+
+

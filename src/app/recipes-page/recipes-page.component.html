@@ -1,0 +1,55 @@
+<header>
+    <app-navbar id="nav"></app-navbar>
+</header>
+
+<body>
+    <div class="header">
+        <div class="header_text">
+            <h1>The Best Homemade Brownies</h1>
+            <h4>
+                The BEST brownie recipe! With crispy edges, fudgy middles, and rich chocolate flavor, these homemade brownies will disappear in no time.
+            </h4>
+        </div>
+        <img src="assets/images/brownie-recipe.jpg" alt="The BEST homemade brownies" class="brownie_img">
+    </div>
+    
+    <div class="ingredients">
+        <app-recipe-ingredients></app-recipe-ingredients>
+    </div>
+
+    <div class="instructions" id="instructions">
+        <app-recipe-instructions></app-recipe-instructions>
+    </div>
+
+    <div class="complete_images">
+        <img src="assets\images\complete_brownie_1.jpg" alt="Complete Brownie 1">
+        <img src="assets\images\complete_brownie_2.jpg" alt="Complete Brownie 2">
+        <img src="assets\images\complete_brownie_3.jpg" alt="Complete Brownie 3">
+
+    </div>
+
+
+    <div class="similar_recipes">
+        <h3>You May Also Like...</h3>
+        <hr class="linebreak">
+            <div class="card-deck" id="similar">
+                <app-card-basic></app-card-basic>
+                <app-card-basic></app-card-basic>
+                <app-card-basic></app-card-basic>
+                <app-card-basic></app-card-basic>
+                <app-card-basic></app-card-basic>
+            </div>
+    </div>
+
+
+<footer>
+    
+    <jw-modal id="ingred-modal-1">
+        <app-recipe-ingredients></app-recipe-ingredients>
+        <button (click)="closeIngredientsModal('ingred-modal-1');">Close</button>
+    </jw-modal>
+
+    <app-footer></app-footer>
+</footer>
+</body>
+

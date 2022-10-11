@@ -1,0 +1,25 @@
+Components
+Universal
+* Nav bar
+    * Contains search bar
+Home Page:
+* Carousel
+* Quick pull down nav bar
+
+Recipes Page
+* Quick pull down ingredients bar
+* Quick pull down nav bar
+* Module for recipe checklist (can check off/cross off)
+* Potential images showing how the process is done
+
+
+Search Page
+* Search bar
+* Quick pull down nav bar
+
+References
+* Quick pull down nav bar
+
+Gestures
+* swipe up/down = scroll (custom)
+
