@@ -1,4 +1,4 @@
-# AtAlternativeInteractionSolution
+# AlternativeInteractionSolution
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 This project is incomplete and is more of a proof-of-concept idea, rather than a fully-fledged recipe website. It explores an alternate way of interacting with a website: by having a camera read hand gestures.
