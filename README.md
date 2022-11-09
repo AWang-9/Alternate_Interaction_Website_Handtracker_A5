@@ -3,6 +3,9 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 This project is incomplete and is more of a proof-of-concept idea, rather than a fully-fledged recipe website. It explores an alternate way of interacting with a website: by having a camera read hand gestures.
 
+# Video showcase can be found here!
+https://vimeo.com/761948385?embedded=true&source=vimeo_logo&owner=187105523 
+
 ## Implemented Gestures
 Common gestures: 
 * Two open hands = ingredient popup if applicable
